@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Webpage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {background-color: rgb(203, 248, 4);}
+        </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Robert Omohundro</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right ">
+                <li><a href="/Users/r929/Desktop/CodingBootcamp/bootstrap-portfolio/index.html">About</a></li>
+                <li><a href="/Users/r929/Desktop/CodingBootcamp/bootstrap-portfolio/contact.html">Contact</a></li>
+                <li><a href="/Users/r929/Desktop/CodingBootcamp/bootstrap-portfolio/portfolio.html">Portfolio</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h2 class="aboutheader">
+                <div class="row">
+                    <div class="col-sm-6">Contact</div>
+                </div>
+            </h2>
+            <hr>
+
+            <div class="formname">
+                <form action=/"actionpage.php" method="get">
+                    Full name: <br> <input type="text" name="fullname"><br>
+                    Email: <br><input type="text" name="email"><br>
+                    Message:<br>
+                    <textarea rows="15" cols="50"></textarea><br>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar fixed-bottom navbar-inverse">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Copyright 2018</a>
+        </div>
+    </nav>
+</body>
+
+</html>
